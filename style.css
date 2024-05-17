@@ -5,8 +5,23 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
+.header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header p{
+    position:absolute ;
+    font-size: 32px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    padding-left: 40px;
+    color: white;
+}
 .wrapper {
     width: 1200px;
     display: flex;
