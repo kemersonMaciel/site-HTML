@@ -2,10 +2,15 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header {
+    background-color: rgb(189, 153, 100);
+    min-height: 150px;
 }
 
 .header{
@@ -36,18 +41,22 @@ body {
 .menu {
     width: 15%;
     background-color: rgb(255, 255, 255);
-    padding: 10px 20px 0px;
+    padding: 10px 20px 10px;
+    line-height: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.header {
-    background-color: rgb(255, 255, 255);
-    min-height: 150px;
+
+.menu ul :hover{
+    background-color: darkblue;
+    color: white;
 }
+
 .content {
-    background-color: white;
+    background-color:rgb(189, 153, 100);
     min-height: 300px;
     padding: 20px;
 }
 .footer {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(189, 153, 100);
     min-height: 150px;
 }
