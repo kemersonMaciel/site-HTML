@@ -40,10 +40,11 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(189, 153, 100);
     padding: 10px 20px 10px;
     line-height: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .menu ul :hover{
